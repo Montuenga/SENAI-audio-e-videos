@@ -1,0 +1,163 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+/* HEADER */
+
+.topo{
+    height: 320px;
+    background:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.6)),
+    url("imagens/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.topo h1{
+    font-size: 60px;
+    color: #8B0000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.topo p{
+    color: #e2e8f0;
+    font-size: 18px;
+}
+
+/* TITULOS */
+
+.titulo{
+    text-align: center;
+    margin: 60px 0 40px;
+    font-size: 38px;
+    color: #111827;
+    position: relative;
+}
+
+.titulo::after{
+    content: "";
+    width: 120px;
+    height: 5px;
+    background: #ef4444;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+/* CONTAINER */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+/* CARDS */
+
+.card{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+
+    border: 2px solid transparent;
+
+    transition: 0.4s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* EFEITO AO PASSAR O CURSOR */
+
+.card:hover{
+    transform: scale(1.03);
+
+    border: 2px solid rgba(255, 0, 0, 0.5);
+
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.25);
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+/* IMAGENS */
+
+.card img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+/* VIDEO */
+
+video{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    background: black;
+}
+
+/* CONTEUDO */
+
+.conteudo{
+    padding: 25px;
+}
+
+.conteudo h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ef4444;
+}
+
+.conteudo p{
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* AUDIO */
+
+audio{
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 70px;
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+}

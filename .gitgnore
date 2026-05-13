@@ -1,0 +1,52 @@
+# =========================
+# Arquivos do sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Pasta de dependências
+# =========================
+node_modules/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Arquivos temporários
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Configurações do editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Arquivos de ambiente
+# =========================
+.env
+
+# =========================
+# Arquivos compilados/minificados
+# =========================
+dist/
+build/
+
+# =========================
+# Cache
+# =========================
+.cache/
+
+# =========================
+# Arquivos de mídia grandes (opcional)
+# Remova o # se quiser ignorar
+# =========================
+# *.mp3
+# *.mp4
+# *.jpg
+# *.png
